@@ -1,4 +1,4 @@
-//Array Initialisation
+//Array Initialisation, Array Traversal
 #include<stdio.h>
 
 int main()

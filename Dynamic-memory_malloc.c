@@ -8,13 +8,13 @@ int main()
 	printf("Enter number of integers: ");
 	scanf("%d",&n);
 	int *ptr = (int *)malloc(n*sizeof(int));  //memory allocation for n integers
-	printf("Enter the integers:\n");
 	if(ptr==NULL)
 	{
 		printf("Memory not available.\n");
 		exit(1);
 	}
 	
+	printf("Enter the integers:\n");
 	for(i=0;i<n;i++)
 	{
 		scanf("%d", (ptr+i));
